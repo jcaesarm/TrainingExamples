@@ -1,0 +1,22 @@
+body  {
+    background:#D3D3D3;
+}
+
+p {
+    color: navy;
+}
+
+.titl{
+    font-size: 30px;
+    color: darkgreen;
+    text-align: center;
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+#externallink{
+    color: indigo;
+}
