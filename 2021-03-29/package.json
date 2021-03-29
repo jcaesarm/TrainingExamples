@@ -1,0 +1,14 @@
+{
+  "name": "typescriptjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "tsconfig": "tsc --init"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "typescript": "^4.2.3"
+  }
+}
