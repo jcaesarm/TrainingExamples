@@ -24,7 +24,7 @@
 // // }
 // // sayHello("hola");
 // function sayHello( name: string ): string{
-//     return `Hello $(name)`;
+//     return `Hello ${name}`;
 //     // console.log('Hello');
 // }
 // let result: string = sayHello('Steve');
@@ -37,7 +37,7 @@
 // }
 // multiply(12,13);
 // function PrintMe(data:string):string{
-//     return 'Hello $(data)';
+//     return `Hello ${data}`;
 // }
 // //Funtion type
 // let greetings: (a: string) => string;
@@ -80,7 +80,7 @@ var Score;
 var myMathScore = Score.Math;
 console.log('Math score', myMathScore);
 function sayGoodbye(name) {
-    return 'Goodbye $(name)';
+    return "Goodbye " + name;
 }
 var result = sayGoodbye('Julio');
 function process() {
