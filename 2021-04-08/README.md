@@ -9,12 +9,9 @@ In index.html file, add the script tag from unpkg:
 </pre>
 
 ## Also link Roboto Font & Font Icons, Material-UI was designed with this.
-<pre>
+
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
-</pre>
-<pre>
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-</pre>
 
 ## Step 2
 In the js file, add destructure the elements you want to use
