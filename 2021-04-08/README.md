@@ -5,13 +5,13 @@ README.md
 ## Step 1
 In index.html file, add the script tag from unpkg:
 <pre>
-    <script src="https://unpkg.com/@material-ui/core@latest/umd/material-ui.production.min.js"></script>
+<script src="https://unpkg.com/@material-ui/core@latest/umd/material-ui.production.min.js"></script>
 </pre>
 
 ## Also link Roboto Font & Font Icons, Material-UI was designed with this.
 <pre>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 </pre>
 
 ## Step 2
