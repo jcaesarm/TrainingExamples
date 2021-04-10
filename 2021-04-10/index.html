@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="app.css" rel="stylesheet" >
+    <title>React</title>
+</head>
+<body>
+
+    
+    <div id="root"></div>
+    <!-- <div class="Box">Hello World</div> -->
+    <!-- <div id="root">
+        
+        <div class="Box">
+            Hello World from React!
+            <span>
+                Hello World from React!
+            </span>
+        </div>
+    </div> -->
+
+    <!-- <script type="text/javascript">
+        const rootElement = document.getElementById('root');
+
+        const newElement = document.createElement('div');
+        newElement.textContent = 'Hello World!';
+        newElement.classList.add('Box'); //use css class
+
+        rootElement.appendChild(newElement);
+    </script> -->
+    <!-- <script src="https://unpkg.com/react@17.0.2/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js"></script>
+
+    <script type="text/javascript">
+        const rootElement = document.getElementById('root');
+
+        // const newElement = React.createElement('div', {children: 'Hello World from React!', className: 'Box'});
+        const newElement1 = React.createElement('div',
+        {
+            children: React.createElement('span', {children: 'Hello World from React!', className: null} ),
+            className: 'Box'
+        });
+        
+        //JSX
+
+        ReactDOM.render(newElement1, rootElement);
+
+    </script> -->
+    <script src="https://unpkg.com/react@17.0.2/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- <script type="text/babel" src="components.js"></script> -->
+    <script type="text/babel" src="state.js"></script>
+
+
+</body>
+</html>
