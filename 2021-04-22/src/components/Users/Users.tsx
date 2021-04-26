@@ -19,20 +19,18 @@ class Users extends Component {
   componentDidMount( ){
 
     axios.get('https://jsonplaceholder.typicode.com/users')
-      .then(response => {
-          //modify data here
-          const users: any[] = response.data;
-          const modUsers = users.map( (user: any) => {
-              return {User: user.name, Email: user.email, City: user.address.city, Phone: user.phone, Company: user.company.name};
-          });
-          console.log(modUsers);
-          
-          this.setState({loading: false, data:response.data, error:null})
-      }
-        )
-      .catch(error => this.setState({loading: true, data:null, error:error}))
-  }
-
+    .then(response => {
+        //modify data here
+        const users: any[] = response.data;
+        const modUsers = users.map( (user: any) => {
+            return {User: user.name, Email: user.email, City: user.address.city, Phone: user.phone, Company: user.company.name};
+        });
+        console.log(modUsers);
+        
+        this.setState({loading: false, data:modUsers, error:null})
+    })
+    .catch(error => this.setState({loading: false, data:null, error:error}))
+}
 }
 
 class UsersView extends Component <IProps> {

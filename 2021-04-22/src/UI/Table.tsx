@@ -118,9 +118,9 @@ export default function MyTable ( props: IProps) {
             {props.rows.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage).map((row: any, index:number) => {
               return (
                 <TableRow hover role="checkbox" tabIndex={-1} key={index}>
-                  {Object.values<string>(row).map((value, index) => {
-                    return(index===0 ? <TableCell key={index}>{value}</TableCell> : <TableCell key={index} align="right">{value}</TableCell>)
-                  })}
+                  {Object.values<string>(row).map((value, index) => (
+                    index===0 ? <TableCell key={index}>{value}</TableCell> : <TableCell key={index} align="right">{value}</TableCell>
+                  ))}
                 </TableRow>
               );
             })}

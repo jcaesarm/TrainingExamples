@@ -23,7 +23,7 @@ class EmailDetail extends Component {
 
     axios.get(`https://jsonplaceholder.typicode.com/posts/${id}`)
       .then(response => this.setState({loading: false, data:response.data, error:null}))
-      .catch(error => this.setState({loading: true, data:null, error:error}))
+      .catch(error => this.setState({loading: false, data:null, error:error}))
   }
 
 }
