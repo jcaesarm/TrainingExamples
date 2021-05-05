@@ -34,7 +34,7 @@ class Server {
 
     listen(){
         this.server.listen(process.env.SERVER_PORT, () => {
-            console.log(`Server running at http://127.0.0.1:${process.env.SERVER_HOST}:${process.env.SERVER_PORT}`);
+            console.log(`Server running at http://${process.env.SERVER_HOST}:${process.env.SERVER_PORT}`);
           });
     }
 }
